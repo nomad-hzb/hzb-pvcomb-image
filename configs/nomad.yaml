@@ -73,9 +73,9 @@ ui:
         # wanted subset. Any available search filter can be targeted here.
         filters:
           include:
-            - '*baseclasses.voila.VoilaNotebook'
+            - '*pvcombschema.sample.PVcomB_VoilaNotebook'
         filters_locked:
-          section_defs.definition_qualified_name: 'baseclasses.voila.VoilaNotebook'
+          section_defs.definition_qualified_name: 'pvcombschema.sample.PVcomB_VoilaNotebook'
         # Controls the filter menus shown on the left
         filter_menus:
           options:

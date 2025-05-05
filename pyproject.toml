@@ -1,16 +1,10 @@
 [build-system]
-<<<<<<< HEAD
-requires = ["setuptools>=64"]
-build-backend = "setuptools.build_meta"
-
-=======
 requires = ["setuptools>=64", "setuptools-scm"]
 build-backend = "setuptools.build_meta"
 
 [tool.setuptools_scm]
 fallback_version = "0.0"
 
->>>>>>> template/main
 [project]
 classifiers = [
   "Intended Audience :: Developers",

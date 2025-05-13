@@ -1625,6 +1625,24 @@ wheels = [
 ]
 
 [[package]]
+name = "ipympl"
+version = "0.9.7"
+source = { registry = "https://gitlab.mpcdf.mpg.de/api/v4/projects/2187/packages/pypi/simple" }
+dependencies = [
+    { name = "ipython", version = "8.36.0", source = { registry = "https://gitlab.mpcdf.mpg.de/api/v4/projects/2187/packages/pypi/simple" }, marker = "python_full_version < '3.11'" },
+    { name = "ipython", version = "9.2.0", source = { registry = "https://gitlab.mpcdf.mpg.de/api/v4/projects/2187/packages/pypi/simple" }, marker = "python_full_version >= '3.11'" },
+    { name = "ipywidgets" },
+    { name = "matplotlib" },
+    { name = "numpy" },
+    { name = "pillow" },
+    { name = "traitlets" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/39/1b/acd3d481869d614a7acbb831bd9304411eae47b05d7607db989613028788/ipympl-0.9.7.tar.gz", hash = "sha256:3e505a56b6e9a7bfc4d40c1a861a0547adb16820eb67ec79131335dd0a5084f0", size = 58547447, upload-time = "2025-03-05T03:51:14.609Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/86/6b/21c62f1b2b5e18c6553f7364487dfdf7eb7952b1000a1b7863c1f97819e9/ipympl-0.9.7-py3-none-any.whl", hash = "sha256:3698ee7eaa0b047a7603517d7aa1b71b32118a5f51754cab45ec5d994f67208f", size = 515702, upload-time = "2025-03-05T03:50:48.616Z" },
+]
+
+[[package]]
 name = "ipysheet"
 version = "0.7.0"
 source = { registry = "https://gitlab.mpcdf.mpg.de/api/v4/projects/2187/packages/pypi/simple" }
@@ -3051,6 +3069,7 @@ dev = [
 jupyter = [
     { name = "ipyaggrid" },
     { name = "ipydatagrid" },
+    { name = "ipympl" },
     { name = "ipysheet" },
     { name = "jupyter-flex" },
     { name = "lmfit" },
@@ -3070,6 +3089,7 @@ plugins = [
 requires-dist = [
     { name = "ipyaggrid", marker = "extra == 'jupyter'" },
     { name = "ipydatagrid", marker = "extra == 'jupyter'" },
+    { name = "ipympl", marker = "extra == 'jupyter'" },
     { name = "ipysheet", marker = "extra == 'jupyter'" },
     { name = "jupyter-flex", marker = "extra == 'jupyter'" },
     { name = "lmfit", marker = "extra == 'jupyter'" },

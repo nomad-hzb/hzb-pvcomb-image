@@ -3155,7 +3155,7 @@ requires-dist = [
     { name = "nomad-material-processing", marker = "extra == 'plugins'" },
     { name = "nomad-measurements", marker = "extra == 'plugins'" },
     { name = "nomad-pvcomb", marker = "extra == 'plugins'", git = "https://codebase.helmholtz.cloud/pvcomb/nomad-pvcomb.git?rev=develop" },
-    { name = "oauthenticator", marker = "extra == 'jupyter'", specifier = "<16" },
+    { name = "oauthenticator", marker = "extra == 'jupyter'", specifier = "<18" },
     { name = "perovskite-solar-cell-database", marker = "extra == 'plugins'", git = "https://github.com/FAIRmat-NFDI/nomad-perovskite-solar-cells-database.git" },
     { name = "plotly", specifier = "<6.0" },
     { name = "pyvis", marker = "extra == 'jupyter'" },

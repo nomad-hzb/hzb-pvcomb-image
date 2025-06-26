@@ -1739,6 +1739,30 @@ wheels = [
 ]
 
 [[package]]
+name = "ipyvue"
+version = "1.11.2"
+source = { registry = "https://gitlab.mpcdf.mpg.de/api/v4/projects/2187/packages/pypi/simple" }
+dependencies = [
+    { name = "ipywidgets" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/f8/c7/fc11a2b3e9114190504a18d0e661230de2ea165f0a47ab835c69e86a40ef/ipyvue-1.11.2.tar.gz", hash = "sha256:3b1381bd120184f970a5d66deac33b8592a666c8e1ab7a5afd33ecff342e0a95", size = 1741459, upload-time = "2024-11-14T12:45:24.94Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/0a/c5/226ff8aaf6248edf16246498d7885805e2c8b122631ac133130b0612b1ad/ipyvue-1.11.2-py2.py3-none-any.whl", hash = "sha256:e009efa97ec223c4833a6c8ef3a473385d767ff69518ff94f107400517333353", size = 2666202, upload-time = "2024-11-14T12:45:22.624Z" },
+]
+
+[[package]]
+name = "ipyvuetify"
+version = "1.11.2"
+source = { registry = "https://gitlab.mpcdf.mpg.de/api/v4/projects/2187/packages/pypi/simple" }
+dependencies = [
+    { name = "ipyvue" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/49/05/f753eae1230530a6c48372d85eb6574835881ee7fd53552b8157d83710aa/ipyvuetify-1.11.2.tar.gz", hash = "sha256:3f67dbe39c1cb7ced04b946c84d28c031094ecb931d43002fe7451858b51110a", size = 6170380, upload-time = "2025-06-03T11:44:21.454Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/99/58/5c79be0e731504e4d4d2d91afdea0e89cf0de940ac60aae77b411c53c900/ipyvuetify-1.11.2-py2.py3-none-any.whl", hash = "sha256:6456372d661da82edab32b51f373046773dd67ad4610de4c272dda2561fb5980", size = 6289874, upload-time = "2025-06-03T11:44:19.501Z" },
+]
+
+[[package]]
 name = "ipywidgets"
 version = "8.1.7"
 source = { registry = "https://gitlab.mpcdf.mpg.de/api/v4/projects/2187/packages/pypi/simple" }
@@ -3125,6 +3149,7 @@ jupyter = [
     { name = "ipydatagrid" },
     { name = "ipympl" },
     { name = "ipysheet" },
+    { name = "ipyvuetify" },
     { name = "jupyter-flex" },
     { name = "jupyterhub" },
     { name = "lmfit" },
@@ -3147,6 +3172,7 @@ requires-dist = [
     { name = "ipydatagrid", marker = "extra == 'jupyter'" },
     { name = "ipympl", marker = "extra == 'jupyter'" },
     { name = "ipysheet", marker = "extra == 'jupyter'" },
+    { name = "ipyvuetify", marker = "extra == 'jupyter'" },
     { name = "jupyter-flex", marker = "extra == 'jupyter'" },
     { name = "jupyterhub", marker = "extra == 'jupyter'", specifier = "<5" },
     { name = "lmfit", marker = "extra == 'jupyter'" },

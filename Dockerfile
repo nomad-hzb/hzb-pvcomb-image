@@ -156,7 +156,7 @@ ENV UV_PROJECT_ENVIRONMENT=/opt/conda \
 SHELL ["/bin/bash", "-o", "pipefail", "-c"]
 
 USER root
- ffmpeg libsm6 libxext6
+
 RUN apt-get update \
  && apt-get install --yes --quiet --no-install-recommends \
       libgomp1 \

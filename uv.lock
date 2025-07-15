@@ -3168,7 +3168,7 @@ requires-dist = [
     { name = "ipysheet", marker = "extra == 'jupyter'" },
     { name = "ipyvuetify", marker = "extra == 'jupyter'" },
     { name = "jupyter-flex", marker = "extra == 'jupyter'" },
-    { name = "jupyterhub", marker = "extra == 'jupyter'", specifier = "<5" },
+    { name = "jupyterhub", marker = "extra == 'jupyter'", specifier = "<6" },
     { name = "lmfit", marker = "extra == 'jupyter'" },
     { name = "nomad-baseclasses", marker = "extra == 'plugins'", git = "https://github.com/nomad-hzb/nomad-baseclasses.git" },
     { name = "nomad-chemical-energy", marker = "extra == 'plugins'", git = "https://github.com/nomad-hzb/nomad-chemical-energy.git" },

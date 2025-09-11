@@ -3433,7 +3433,7 @@ wheels = [
 [[package]]
 name = "nomad-pvcomb"
 version = "1.0.0"
-source = { git = "https://codebase.helmholtz.cloud/pvcomb/nomad-pvcomb.git?rev=develop#e4967d55af67efe380c1bc7386be9e09b1cf929c" }
+source = { git = "https://codebase.helmholtz.cloud/pvcomb/nomad-pvcomb.git?rev=develop#b47831becbad18a3b0a157306fe26ad2f4e36f16" }
 dependencies = [
     { name = "chardet" },
     { name = "hdf5plugin" },

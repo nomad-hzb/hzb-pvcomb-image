@@ -3222,7 +3222,7 @@ wheels = [
 [[package]]
 name = "nomad-baseclasses"
 version = "1.0.0"
-source = { git = "https://github.com/nomad-hzb/nomad-baseclasses.git#a7f8192997b2c15f225273bc7023e9f3d812fd54" }
+source = { git = "https://github.com/nomad-hzb/nomad-baseclasses.git#2b87b69a6309e95de7d222671b934a67c862f04e" }
 dependencies = [
     { name = "chardet" },
     { name = "hdf5plugin" },
@@ -3242,7 +3242,7 @@ dependencies = [
 [[package]]
 name = "nomad-chemical-energy"
 version = "1.0.0"
-source = { git = "https://github.com/nomad-hzb/nomad-chemical-energy.git#d0ce0ffa99a493136df620dd4f48e0d46214b3e5" }
+source = { git = "https://github.com/nomad-hzb/nomad-chemical-energy.git#e016ba334cd5d2b1271d0b26be17a9ac467ad0b4" }
 dependencies = [
     { name = "httpx" },
     { name = "nomad-baseclasses" },
@@ -3433,7 +3433,7 @@ wheels = [
 [[package]]
 name = "nomad-pvcomb"
 version = "1.0.0"
-source = { git = "https://codebase.helmholtz.cloud/pvcomb/nomad-pvcomb.git?rev=develop#b4458204acde4a3bf668b4b7ae4d274f06dc0b70" }
+source = { git = "https://codebase.helmholtz.cloud/pvcomb/nomad-pvcomb.git?rev=develop#98aae95098469da4d70653b76b85ed56f3cf2905" }
 dependencies = [
     { name = "chardet" },
     { name = "hdf5plugin" },
@@ -3867,8 +3867,8 @@ wheels = [
 
 [[package]]
 name = "perovskite-solar-cell-database"
-version = "1.2.5"
-source = { git = "https://github.com/FAIRmat-NFDI/nomad-perovskite-solar-cells-database.git#b25d2db96a5041ad280297e15fd99e03316752fb" }
+version = "1.2.6"
+source = { git = "https://github.com/FAIRmat-NFDI/nomad-perovskite-solar-cells-database.git#11a734759bb288ef30a04b6c9c01333b324bf53f" }
 dependencies = [
     { name = "lxml-html-clean" },
     { name = "nomad-lab" },

@@ -3433,7 +3433,7 @@ wheels = [
 [[package]]
 name = "nomad-pvcomb"
 version = "1.0.0"
-source = { git = "https://codebase.helmholtz.cloud/pvcomb/nomad-pvcomb.git?rev=develop#98aae95098469da4d70653b76b85ed56f3cf2905" }
+source = { git = "https://codebase.helmholtz.cloud/pvcomb/nomad-pvcomb.git?rev=develop#1db6d420bcbc76b1a06e128a23129f59a7c43be2" }
 dependencies = [
     { name = "chardet" },
     { name = "hdf5plugin" },
@@ -3867,8 +3867,8 @@ wheels = [
 
 [[package]]
 name = "perovskite-solar-cell-database"
-version = "1.2.6"
-source = { git = "https://github.com/FAIRmat-NFDI/nomad-perovskite-solar-cells-database.git#11a734759bb288ef30a04b6c9c01333b324bf53f" }
+version = "1.2.7"
+source = { git = "https://github.com/FAIRmat-NFDI/nomad-perovskite-solar-cells-database.git#545e48ae2bdd9b189ca2ebb420698e43bd946a3b" }
 dependencies = [
     { name = "lxml-html-clean" },
     { name = "nomad-lab" },

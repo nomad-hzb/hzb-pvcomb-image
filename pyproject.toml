@@ -24,7 +24,7 @@ dependencies = ["nomad-lab[parsing, infrastructure]==1.4.0", "plotly<6.0"]
 
 [project.optional-dependencies]
 plugins = [
-  "perovskite-solar-cell-database @ git+https://github.com/FAIRmat-NFDI/nomad-perovskite-solar-cells-database.git",
+  "perovskite-solar-cell-database @ git+https://github.com/FAIRmat-NFDI/nomad-perovskite-solar-cells-database.git@f80c86d352a2ed97db8d090bbc7fb65b3b07aa24",
   "nomad-pvcomb @ git+https://codebase.helmholtz.cloud/pvcomb/nomad-pvcomb.git@develop",
   'nomad-material-processing',
   'nomad-measurements',

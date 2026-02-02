@@ -33,6 +33,7 @@ plugins = [
 jupyter = [
 'voila','ipyaggrid','ipydatagrid','ipysheet','pyvis','lmfit','jupyter-flex','ipympl', 'jupyterhub<5','oauthenticator<16', 'ipyvuetify',
 ]
+cpu-action = []
 dev = ["nomad-lab[parsing, infrastructure, dev]==1.4.0"]
 
 

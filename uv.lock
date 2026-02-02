@@ -3299,7 +3299,7 @@ requires-dist = [
     { name = "pyvis", marker = "extra == 'jupyter'" },
     { name = "voila", marker = "extra == 'jupyter'" },
 ]
-provides-extras = ["plugins", "jupyter", "dev"]
+provides-extras = ["plugins", "jupyter", "cpu-action", "dev"]
 
 [[package]]
 name = "nomad-lab"

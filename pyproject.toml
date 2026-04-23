@@ -20,7 +20,7 @@ version = "0.1"
 readme = "README.md"
 requires-python = ">=3.10"
 license = { file = "LICENSE" }
-dependencies = ["nomad-lab[parsing, infrastructure]==1.4.1", "plotly<6.0"]
+dependencies = ["nomad-lab[parsing, infrastructure]==1.4.2", "plotly<6.0"]
 
 [project.optional-dependencies]
 plugins = [
@@ -34,14 +34,14 @@ jupyter = [
 'voila','ipyaggrid','ipydatagrid','ipysheet','pyvis','lmfit','jupyter-flex','ipympl', 'jupyterhub<5','oauthenticator<16', 'ipyvuetify',
 ]
 cpu-action = []
-dev = ["nomad-lab[parsing, infrastructure, dev]==1.4.1"]
+dev = ["nomad-lab[parsing, infrastructure, dev]==1.4.2"]
 
 
 [tool.uv]
 extra-index-url = [
   "https://gitlab.mpcdf.mpg.de/api/v4/projects/2187/packages/pypi/simple",
 ]
-constraint-dependencies = ["hyperspy>=1.7.6"]
+constraint-dependencies = ["hyperspy>=1.7.6", "pyzmq==27.0.2"]
 
 [tool.setuptools.packages.find]
 exclude = ["gui*", "docs*", "config*"]

@@ -3474,7 +3474,7 @@ wheels = [
 [[package]]
 name = "nomad-baseclasses"
 version = "1.0.1"
-source = { git = "https://github.com/nomad-hzb/nomad-baseclasses.git#5cf1919f8cbba7a101f2e66989348a281db205ea" }
+source = { git = "https://github.com/nomad-hzb/nomad-baseclasses.git#f3496d0eddb8e7b1950188013698ee7de6a7a6dc" }
 dependencies = [
     { name = "chardet" },
     { name = "hdf5plugin" },
@@ -3689,7 +3689,7 @@ wheels = [
 [[package]]
 name = "nomad-pvcomb"
 version = "1.0.0"
-source = { git = "https://codebase.helmholtz.cloud/pvcomb/nomad-pvcomb.git?rev=develop#b0b54f19124f41e682143d7ee55f5caaeedd669c" }
+source = { git = "https://codebase.helmholtz.cloud/pvcomb/nomad-pvcomb.git?rev=develop#6b5006bf15def8e0c45ebe4012ca9ea8917683a7" }
 dependencies = [
     { name = "chardet" },
     { name = "hdf5plugin" },

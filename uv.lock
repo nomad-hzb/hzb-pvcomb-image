@@ -3474,7 +3474,7 @@ wheels = [
 [[package]]
 name = "nomad-baseclasses"
 version = "1.0.1"
-source = { git = "https://github.com/nomad-hzb/nomad-baseclasses.git#aae8c8ff68f48015dd25c21a4757fa939e04b0ab" }
+source = { git = "https://github.com/nomad-hzb/nomad-baseclasses.git#66740bafed0b2857ae50f122dd6e2999d29d3bd1" }
 dependencies = [
     { name = "chardet" },
     { name = "hdf5plugin" },
@@ -3493,7 +3493,7 @@ dependencies = [
 [[package]]
 name = "nomad-chemical-energy"
 version = "1.0.0"
-source = { git = "https://github.com/nomad-hzb/nomad-chemical-energy.git#76b9a930df73511cebebd7671a5446830a19a458" }
+source = { git = "https://github.com/nomad-hzb/nomad-chemical-energy.git#ff75240ece54456646ff9da2c66527b0fa8e2c6f" }
 dependencies = [
     { name = "httpx" },
     { name = "nomad-baseclasses" },
@@ -3662,14 +3662,14 @@ infrastructure = [
 
 [[package]]
 name = "nomad-material-processing"
-version = "1.0.6"
+version = "1.0.7"
 source = { registry = "https://gitlab.mpcdf.mpg.de/api/v4/projects/2187/packages/pypi/simple" }
 dependencies = [
     { name = "nomad-lab" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/96/52/72058088fab7bfa2099bdd4c57f56fd45b411fa27e52f115b9d0bcc726e5/nomad_material_processing-1.0.6.tar.gz", hash = "sha256:761d0bec27751905a77c9c979e78e7e8302d846d50bba2a972d738617987a816", size = 587887, upload-time = "2026-04-02T15:19:04.967Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/cc/30/bc8d5b4859bf824986672eb9f08e4d856f29a85ad18414523b3fb77d6ec5/nomad_material_processing-1.0.7.tar.gz", hash = "sha256:ba240ed4a8350f74520dea31b52a6b198bbbc47704320af528c22d8e4f7a9b8b", size = 590559, upload-time = "2026-11-06T09:33:29.01Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/d6/24/a0180520370ac83a2bd2aa8aa3f4a54ddb46a0d67209d83fcc5c68e508db/nomad_material_processing-1.0.6-py3-none-any.whl", hash = "sha256:5bf5c45d4f6c88367c105db81834a5887dc32f16dc93da10ee001ad340063aad", size = 54873, upload-time = "2026-04-02T15:19:03.441Z" },
+    { url = "https://files.pythonhosted.org/packages/7b/df/a8cce7bc5918a6f2fa6ede4a13d3f1716b43f8a879cf50380c62d88b01b3/nomad_material_processing-1.0.7-py3-none-any.whl", hash = "sha256:78c43d8a52ae5de9f3eb48def468ded61d22824a43adc3697abcde934d8aee49", size = 55121, upload-time = "2026-11-06T09:33:27.509Z" },
 ]
 
 [[package]]
@@ -3689,7 +3689,7 @@ wheels = [
 [[package]]
 name = "nomad-pvcomb"
 version = "1.0.0"
-source = { git = "https://codebase.helmholtz.cloud/pvcomb/nomad-pvcomb.git?rev=develop#62c6aae6559c385a2be673b7fa7e76482734fc34" }
+source = { git = "https://codebase.helmholtz.cloud/pvcomb/nomad-pvcomb.git?rev=develop#f8a7fe91d786c37d19adb7b961809bc74361e2d3" }
 dependencies = [
     { name = "chardet" },
     { name = "hdf5plugin" },

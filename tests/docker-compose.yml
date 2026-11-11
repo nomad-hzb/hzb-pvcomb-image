@@ -52,7 +52,7 @@ services:
     volumes:
       - mongo:/data/db
       - ./.volumes/mongo:/backup
-    command: mongod --logpath=/dev/null # --quiet
+    command: mongod # logs to stdout so `docker logs mongo` shows startup errors
     healthcheck:
       test:
         - "CMD"

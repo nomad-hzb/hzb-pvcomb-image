@@ -201,6 +201,13 @@ jobs:
         run: |
           if ! docker compose up -d --quiet-pull --wait; then
             echo "Containers failed health check."
+            echo "Runner kernel: $(uname -r)"
+            echo "Container status:"
+            docker compose ps -a
+            echo "State of mongo (exit code, restarts, health check output):"
+            docker inspect --format '{{json .State}}' mongo
+            echo "Logs for mongo:"
+            docker logs --tail 200 mongo
             echo "Logs for app:"
             docker logs app
             echo "Logs for jupyter:"

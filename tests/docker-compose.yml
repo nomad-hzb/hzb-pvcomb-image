@@ -49,6 +49,7 @@ services:
     environment:
       - MONGO_DATA_DIR=/data/db
       - MONGO_LOG_DIR=/dev/null
+      - GLIBC_TUNABLES=glibc.pthread.rseq=1 # temp fix for mongo to start on kernels 6.19 to 7.0.13
     volumes:
       - mongo:/data/db
       - ./.volumes/mongo:/backup
